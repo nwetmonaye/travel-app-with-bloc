@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel_project/screen/navscreens/bar_item_page.dart';
-import 'package:travel_project/screen/navscreens/home_page.dart';
+import 'package:travel_project/screen/home_page.dart';
 import 'package:travel_project/screen/navscreens/my_page.dart';
 import 'package:travel_project/screen/navscreens/search_page.dart';
 
