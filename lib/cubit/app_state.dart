@@ -34,3 +34,11 @@ final class LoadedState extends AppState {
   // TODO: implement props
   List<Object> get props => [places];
 }
+
+final class DetailState extends AppState {
+  DetailState(this.place);
+  final DataModel place;
+  @override
+  // TODO: implement props
+  List<Object> get props => [place];
+}

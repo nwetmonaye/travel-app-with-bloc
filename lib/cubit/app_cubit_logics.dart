@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:travel_project/cubit/app_cubit.dart';
+import 'package:travel_project/screen/detail_page.dart';
 import 'package:travel_project/screen/home_page.dart';
 import 'package:travel_project/screen/welcome_page.dart';
 
@@ -17,6 +18,9 @@ class _AppCubitLogicsState extends State<AppCubitLogics> {
     return Scaffold(
       body: BlocBuilder<AppCubit, AppState>(
         builder: (context, state) {
+          if (state is DetailState) {
+            return DetailPage();
+          }
           if (state is WelcomeState) {
             return WelcomePage();
           }
