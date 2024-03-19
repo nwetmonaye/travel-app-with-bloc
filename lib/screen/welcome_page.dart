@@ -15,7 +15,7 @@ class WelcomePage extends StatefulWidget {
 }
 
 class _WelcomePageState extends State<WelcomePage> {
-  List images = ["welcome.png", "welcome-two.png", "welcome-three.png"];
+  List images = ["welcome-one.png", "welcome-two.png", "welcome-three.png"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -67,7 +67,7 @@ class _WelcomePageState extends State<WelcomePage> {
                           child: Row(
                             children: [
                               ResponsiveButton(
-                                width: 120,
+                                width: 100,
                               ),
                             ],
                           ),

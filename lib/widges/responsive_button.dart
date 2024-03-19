@@ -32,7 +32,11 @@ class ResponsiveButton extends StatelessWidget {
                     ),
                   )
                 : Container(),
-            Image.asset("img/button-one.png")
+            Image.asset(
+              "img/button-one.png",
+              width: 40,
+              height: 40,
+            )
           ],
         ),
       ),
